@@ -1,6 +1,6 @@
 {
   "name": "expo-pdf-page-image",
-  "version": "0.0.4",
+  "version": "0.0.41",
   "description": "Expo native module: render PDF pages to PNG images on iOS (PDFKit) and Android (PdfRenderer).",
   "license": "MIT",
   "author": "Sherkhon Mamatkulov",
