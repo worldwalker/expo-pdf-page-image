@@ -1,0 +1,4 @@
+android/build/
+android/.gradle/
+**/.DS_Store
+*.tgz

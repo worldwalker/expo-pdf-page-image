@@ -1,0 +1,54 @@
+{
+  "name": "expo-pdf-page-image",
+  "version": "0.0.1",
+  "description": "Expo native module: render PDF pages to PNG images on iOS (PDFKit) and Android (PdfRenderer).",
+  "license": "MIT",
+  "author": "Sherkhon Mamatkulov",
+  "homepage": "https://github.com/sherkhonmamatkulov/expo-pdf-page-image#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherkhonmamatkulov/expo-pdf-page-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sherkhonmamatkulov/expo-pdf-page-image/issues"
+  },
+  "keywords": [
+    "expo",
+    "react-native",
+    "pdf",
+    "pdfkit",
+    "pdf-renderer",
+    "expo-module"
+  ],
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "sideEffects": false,
+  "files": [
+    "src",
+    "android",
+    "ios",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepublishOnly": "node scripts/check-publish.js"
+  },
+  "peerDependencies": {
+    "expo": ">=52.0.0",
+    "expo-modules-core": ">=2.0.0",
+    "react": "*",
+    "react-native": ">=0.76.0"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": false
+    }
+  },
+  "dependencies": {
+    "expo-modules-core": "~3.0.30"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

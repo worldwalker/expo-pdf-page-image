@@ -1,0 +1,10 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["PdfPageImageModule"],
+    "podspecPath": "ios/PdfPageImage.podspec"
+  },
+  "android": {
+    "modules": ["expo.modules.pdfpageimage.PdfPageImageModule"]
+  }
+}

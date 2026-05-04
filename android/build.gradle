@@ -1,0 +1,19 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'host.exp.exponent'
+version = '1.0.0'
+
+android {
+  namespace "expo.modules.pdfpageimage"
+  defaultConfig {
+    versionCode 1
+    versionName "1.0.0"
+  }
+}
+
+dependencies {
+  api "androidx.annotation:annotation:1.0.0"
+}
