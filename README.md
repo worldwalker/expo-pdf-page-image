@@ -19,9 +19,11 @@ See `src/index.ts`. Native module name: `PdfPageImage`.
 
 ## Usage example
 
+```
 import { PdfPageImageModule } from "expo-pdf-page-image";
 
 PdfPageImageModule.generateAllPages("file://path/to/pdf.pdf", 1);
+```
 
 ### The package also exports the types of images
 
