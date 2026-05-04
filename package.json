@@ -1,16 +1,16 @@
 {
   "name": "expo-pdf-page-image",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Expo native module: render PDF pages to PNG images on iOS (PDFKit) and Android (PdfRenderer).",
   "license": "MIT",
   "author": "Sherkhon Mamatkulov",
-  "homepage": "https://github.com/sherkhonmamatkulov/expo-pdf-page-image#readme",
+  "homepage": "https://github.com/worldwalker/expo-pdf-page-image#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sherkhonmamatkulov/expo-pdf-page-image.git"
+    "url": "git+https://github.com/worldwalker/expo-pdf-page-image.git"
   },
   "bugs": {
-    "url": "https://github.com/sherkhonmamatkulov/expo-pdf-page-image/issues"
+    "url": "https://github.com/worldwalker/expo-pdf-page-image/issues"
   },
   "keywords": [
     "expo",
