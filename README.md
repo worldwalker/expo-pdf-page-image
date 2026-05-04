@@ -20,7 +20,7 @@ See `src/index.ts`. Native module name: `PdfPageImage`.
 ## Usage example
 
 ```
-import { PdfPageImageModule } from "expo-pdf-page-image";
+import PdfPageImageModule from "expo-pdf-page-image";
 
 PdfPageImageModule.generateAllPages("file://path/to/pdf.pdf", 1);
 ```
