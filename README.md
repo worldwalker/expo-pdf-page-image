@@ -23,6 +23,16 @@ import { PdfPageImageModule } from "expo-pdf-page-image";
 
 PdfPageImageModule.generateAllPages("file://path/to/pdf.pdf", 1);
 
+### The package also exports the types of images
+
+```
+export type PageImage = {
+  height: number;
+  uri: string;
+  width: number;
+};
+```
+
 ## License
 
 MIT

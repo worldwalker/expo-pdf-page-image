@@ -1,5 +1,16 @@
 import { requireNativeModule } from "expo-modules-core";
 
+/**
+ * @description The type of the page image.
+ * @example
+ * ```ts
+ * {
+ *   height: number;
+ *   uri: string;
+ *   width: number;
+ * }
+ * ```
+ */
 export type PageImage = {
   height: number;
   uri: string;
@@ -26,7 +37,7 @@ function getNativeModule(): NativePdfPageImageModule {
  * @description The module name for the native module.
  * @example
  * ```ts
- * import { PdfPageImageModule } from "expo-pdf-page-image";
+ * import PdfPageImageModule from "expo-pdf-page-image";
  *
  * PdfPageImageModule.cleanupPages(["file://path/to/pdf.pdf"]);
  * PdfPageImageModule.generateAllPages("file://path/to/pdf.pdf", 1);
@@ -38,7 +49,7 @@ const PdfPageImageModule = {
    * @param uris - The URIs of the PDF files to clean up.
    * @example
    * ```ts
-   * import { PdfPageImageModule } from "expo-pdf-page-image";
+   * import PdfPageImageModule from "expo-pdf-page-image";   
    *
    * PdfPageImageModule.cleanupPages(["file://path/to/pdf.pdf"]);
    * ```
@@ -52,7 +63,7 @@ const PdfPageImageModule = {
    * @param scale - The scale of the pages.
    * @example
    * ```ts
-   * import { PdfPageImageModule } from "expo-pdf-page-image";
+   * import PdfPageImageModule from "expo-pdf-page-image";   
    *
    * PdfPageImageModule.generateAllPages("file://path/to/pdf.pdf", 1);
    * ```
